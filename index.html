@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<title>Guessing Game</title>
+</head>
+<body>
+	<h1>Guess the number!</h1>
+	<script>
+		var number = 5;
+		var i=0;
+		console.log("test1");
+		while(i===0){
+		var guess = Number(prompt("It's 5"));
+		if(number===guess) {
+			alert('You were right!');
+			i=1;
+			}
+		else if(number>guess){
+			alert('Too low!');
+		}
+		else if(number<guess){
+			alert('Too high!');
+		}
+		}
+	</script>
+</body>
+
